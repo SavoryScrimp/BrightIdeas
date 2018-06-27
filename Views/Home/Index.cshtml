@@ -1,0 +1,29 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Login/Registration";
+}
+
+<h1>Welcome!</h1>
+
+<h3>Register if you're new!</h3>
+<form asp-action="UserReg" asp-controller="Home" method="post">
+    <span asp-validation-for="Name"></span>
+    <p>Name: <input asp-for="Name"></p>
+    <span asp-validation-for="Alias"></span>
+    <p>Alias: <input asp-for="Alias"></p>
+    <span asp-validation-for="Email"></span>
+    <p>Email: <input asp-for="Email"></p>
+    <span asp-validation-for="Password"></span>
+    <p>Password: <input type="password" asp-for="Password"></p>
+    <span asp-validation-for="Password"></span>
+    <p>Confirm Password: <input type="password" name="ConfirmPassword"></p>
+    <p><input type="submit" value="Register"></p>
+</form>
+
+<h3>Login if we know you!</h3>
+<form asp-action="Login" asp-controller="Home" method="post">
+    <p>Email: <input type="email" asp-for="Email"></p>
+    <p>Password: <input type="password" asp-for="Password"></p>
+    <p><input type="submit" value="Login"</p>
+</form>

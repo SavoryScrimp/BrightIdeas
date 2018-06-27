@@ -1,0 +1,27 @@
+﻿@model Post
+
+@{
+    ViewData["Title"] = "Bright Ideas";
+}
+
+<h2>Hi @ViewBag.Alias!</h2>
+<a href="/Logout">Logout</a>
+
+<form style="margin: 10px;" asp-action="AddPost" asp-controller="Home" method="post">
+    <input class="form-control" type="text" asp-for="PostText">
+    <input type="submit" value="Idea!">
+</form>
+
+@foreach(var i in @ViewBag.Posts){
+    <div class="row" style="margin: 10px;">
+        <p><a style= href="/users/@i.CreatorId">@i.Creator.Alias</a> says: <textarea class="form-control" rows="2">@i.PostText</textarea>
+        <br>
+        <a href="/Like/@i.PostId">Like</a>
+        <a href="/bright_ideas/@i.PostId">@i.Users.Count</a> like this!
+        @if(@ViewBag.UserId == @i.CreatorId){
+            <a href="/Delete/@i.PostId">Delete Post</a>
+        }
+        </p>
+    </div>
+    
+}

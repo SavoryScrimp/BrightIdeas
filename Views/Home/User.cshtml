@@ -1,0 +1,15 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<a href="/bright_ideas">Bright Ideas</a>
+<a href="/Logout">Logout</a>
+
+<p>Name: @Model.Name</p>
+<p>Alias: @Model.Alias</p>
+<p>Email: @Model.Email</p>
+<br>
+<p>Total Number of Posts: @ViewBag.UserPosts.Count</p>
+<p>Total Number of Likes: @Model.Posts.Count</p>

@@ -1,0 +1,11 @@
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.deps.json
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.runtimeconfig.json
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.runtimeconfig.dev.json
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.dll
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\bin\Debug\netcoreapp2.0\BrightIdeas.pdb
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.csprojAssemblyReference.cache
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.csproj.CoreCompileInputs.cache
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.AssemblyInfoInputs.cache
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.AssemblyInfo.cs
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.dll
+C:\Users\keyna\OneDrive\Desktop\Dojo\Course Work\C#\BrightIdeas\obj\Debug\netcoreapp2.0\BrightIdeas.pdb

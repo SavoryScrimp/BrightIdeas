@@ -1,0 +1,26 @@
+@model Post
+
+@{
+    ViewData["Title"] = "User Profile";
+}
+<a href="/bright_ideas">Bright Ideas</a>
+<a href="/Logout">Logout</a>
+
+<p><a href="/users/@Model.CreatorId">@Model.Creator.Alias</a> says: <textarea>@Model.PostText</textarea>
+
+<p>People who liked this Post:</p>
+<p>
+    <table>
+        <thead>
+            <th>Alias</th>
+            <th>Name</th>
+        </thead>
+        @foreach(var p in @ViewBag.PostLikes){
+            <tr>
+                <td>@p.User.Alias</td>
+                <td>@p.User.Name</td>
+            </tr>
+        }
+    </table>
+
+</p>
